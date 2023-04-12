@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.page-subtitle,
+.announcement {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.page-subtitle {
+  margin: 62px 0 36px 0;
+}
+
+.article {
+  font-size: 21px;
+  color: gray;
+}
+
+.img-container {
+  margin: 20px 0;
+}
+
+.video-link__container {
+  padding: 40px 0;
+}
+
+.video-link__container#bottom {
+  padding-bottom: 40px;
+}
